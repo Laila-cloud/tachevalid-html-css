@@ -1,0 +1,827 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+   /* Debut nav-bar */
+nav{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 100px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 30px; */
+}
+.droite > img{
+    width: 100px;
+    margin-left: 80px;
+}
+.milieu{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+}
+.color{
+    color: #11b979;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.gauche > button{
+    border: 2px solid #11b979;
+    padding: 20px;
+    width: 150px;
+    background-color: #fff;
+    margin-right: 80px;
+}
+      /* Fin nav-bar */
+
+      /*  DEBUT PREMIERE SECTION  */
+    
+.sect1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+    /* gap: 50px; */
+}
+.text > h1{
+    font-size: 47px;
+}
+.text > p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: gray;
+}
+.text > button{
+    padding: 10px;
+    border: 1px solid #11b979;
+    background-color: #11b979;
+    color: #fff;
+}
+.images{
+    display: grid;
+    grid-template-columns: 200px 100px;
+    grid-template-rows: 240px;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+.img1{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.img2{
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    width: 250px;
+    /* height: 300px; */
+    border-radius: 30px;
+}
+.img3{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/2;
+    width: 250px;
+    border-radius: 30px;
+    margin-left: -35px;
+    /* align-items: center; */
+}
+        /* FIN PREMIERE SECTION */
+
+        /* DEBUT DEUXIEME SECTION  */
+    
+.sect2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.left > img{
+    width: 250px;
+    border-radius: 20px;
+}
+.left > h1{
+    font-size: 30px;
+}
+.left > p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+.left > button{
+    padding: 10px;
+    border: 1px solid #11b979;
+    background-color: #11b979;
+    color: #fff;
+    margin-top: 10px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 20px; */
+}
+.right > .partie1 > .idem{
+    margin: 20px;
+}
+.partie1 > .idem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.partie1 > .idem > i{
+    color: #11b979;
+}
+.partie1 > .idem > p{
+    color: gray;
+}
+.partie1 > .idem > .more{
+    color: #11b979;
+}
+.right > .partie2 > .idem{
+    margin: 20px;
+}
+.partie2 > .idem > p{
+    color: gray;
+}
+.partie2 > .idem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.partie2 > .idem > i{
+    color: #11b979;
+}
+.partie2 > .idem > .more{
+    color: #11b979;
+}
+        /* FIN DEUXIEME SECTION  */
+
+        /* DEBUT TROISIEME SECTION  */
+
+.sect3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.sect3 > h1{
+    font-size: 30px;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    margin-top: 30px;
+
+}
+        /* FIN TROISIEME SECTION  */
+
+        /* DEBUT QUATRIEME SECTION  */
+
+.sect4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #11b979;
+   margin-top: 50px;
+   padding-bottom: 30px;
+}
+.vert{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.vert > b{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 20px;
+}
+.vert > p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: #606060;
+}
+.barre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    margin-top: 30px;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.group > i{
+    color: #11b979;
+    font-size: 20px;
+}
+.group > p{
+    font-size: 15px;
+}
+        /* FIN QUATRIEME SECTION  */
+
+        /* DEBUT CINQUIEME SECTION  */
+
+.sect5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.audit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 15rem;
+    border-radius: 20px;
+}
+.audit > h1{
+    font-size: 27px;
+    color: #fff;
+    margin-top: 50px;
+}
+.audit > button{
+    color: #fff;
+    border: 1px solid #11b979;
+    background-color: #11b979;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+        /* FIN CINQUIEME SECTION  */
+        
+        /* DEBUT SIXIEME SECTION  */
+
+.sect6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* gap: 50px; */
+    background-color: #ffc100;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.jaune{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.jaune > h1{
+    font-size: 27px;
+}
+.jaune > p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #606060;
+}
+.shift{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.shift > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.shift > div > b{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.shift > div > p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #606060;
+}
+.examp > img{
+    width: 300px;
+    border-radius: 20px;
+}
+        /* FIN SIXIEME SECTION  */
+
+        /* DEBUT SEPTIEME SECTION  */
+
+.sect7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* gap: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.make{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.make > h1{
+    font-size: 27px;
+    margin-bottom: 40px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 15px;
+}
+.check > p{
+    font-size: 18px;
+    color: #606060;
+}
+.check > i{
+    font-size: 20px;
+    color: #11b979;
+}
+.review > img{
+    width: 350px;
+    border-radius: 20px;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin: -50px;
+    
+}
+.project{
+    color: #fff;
+    background-color: #11b979;
+    border-radius: 10px;
+    padding: 15px;
+}
+.project > b{
+    font-size: 25px;
+}
+        /* FIN SECTION 7 */
+
+        /* DEBUT SECTION 8 */
+
+.sect8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #11b979;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.build-img > img{
+    width: 350px;
+    border-radius: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    /* justify-content: ; */
+}
+.mini-img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.mini1{
+    width: 40px;
+    height: 45px;
+    border-radius: 100px;
+}
+.mini2{
+    width: 40px;
+    height: 45px;
+    border-radius: 100px;
+    margin-left: -10px;
+}
+.mini3{
+    width: 40px;
+    height: 45px;
+    border-radius: 100px;
+    margin-left: -10px;
+}
+.mini4{
+    width: 40px;
+    height: 45px;
+    border-radius: 100px;
+    margin-left: -10px;
+}
+.build-text > h1{
+    font-size: 27px;
+}
+.build-text > p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #606060;
+    margin-bottom: 20px;
+}
+/* .vertical{
+    border: 6px solid #11b979;
+    height: 20px;
+} */
+ .contact > button{
+    background-color: #fff;
+    border: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+        /* FIN SECTION 8 */
+
+        /* DEBUT SECTION 9 */
+
+.sect9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px;
+}
+.sect9 > h1{
+    font-size: 18px;
+    color: #fff;
+}
+
+        /* FIN SECTION 9 */
+
+        /* DEBUT SECTION 10 */
+
+.sect10{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sect10 > h1{
+    margin-bottom: 40px;
+}
+.partner{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+/* .part1{
+    background-color: #f4f4f4;
+} */
+ .statistiq{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+}
+.statistiq > img{
+    width: 250px;
+}
+
+        /* FIN SECTION 10 */
+
+.sect11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.want{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-image: url(/images/background1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 15rem;
+    border-radius: 20px;
+}
+.wan1 > h1{
+    font-size: 27px;
+    color: #fff;
+    margin-top: 50px;
+}
+.wan1 > p{
+    color: #fff;
+}
+.want > button{
+    color: #fff;
+    border: 1px solid #11b979;
+    background-color: #11b979;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+        /* fin section 11 */
+
+        /* DEBUT SECTION 12 */
+
+.sect12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #f4f4f4;
+}
+.prime{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.prime > img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.secund{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.secund > b{
+    margin-bottom: 20px;
+}
+.secund > p{
+    font-size: 13px;
+}
+.terci{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.terci > b{
+    margin-bottom: 20px;
+}
+.terci > p{
+    font-size: 13px;
+}
+.cuatr{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cuatr > p{
+    font-size: 13px;
+}
+.suscr{
+    display: flex;
+    flex-direction: row;
+}
+.inpt1{
+    width: 100%;
+    padding: 5px;
+}
+.inpt2{
+    padding: 8px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+}
+.sociaux > img{
+    width: 120px;
+    float: right;
+}
+
+        /* FIN SECTION 12 */
+
+        /* PIED DE PAGE  */
+
+footer{
+    background-color: #f4f4f4;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    padding: 15px;
+    font-size: 13px;
+}
+        /* FIN PIED DE PAGE  */
+
+@media screen and (max-width: 630px) {
+        /* LE NAVBAR */
+
+    nav{
+    width: 100%;
+    height: 120px;
+}
+.droite > img{
+    width: 80px;
+    margin-left: 0px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 5px;
+}
+.milieu{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 8px;
+}
+.gauche > button{
+    border: 2px solid #11b979;
+    padding: 8px;
+    width: 100px;
+    background-color: #fff;
+    /* margin-right: 80px; */
+}
+        /* FIN NAVBAR */
+
+        /* DEBUT SECTION1  */
+
+.sect1{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    margin-right: 0px;
+}
+.text > h1{
+    font-size: 27px;
+}
+.text > p{
+    font-size: 15px;
+}
+.text > button{
+    font-size: 15px;
+}
+.images{
+    display: grid;
+    grid-template-columns: 100px 80px;
+    grid-template-rows: 120px;
+}
+.img1{
+    width: 120px;
+}
+.img2{
+    width: 120px;
+}
+.img3{
+    width: 120px;
+}
+        /* FIN SECTION1  */
+
+        /* DEBUT SECTION2  */
+
+.sect2{
+    display: flex;
+    flex-direction: column;
+    justify-content: 0;
+}
+.left > img{
+    width: 150px;
+    /* border-radius: 20px; */
+}
+.left > h1{
+    font-size: 27px;
+}
+.left > p{
+    font-size: 15x;
+}
+        /* FIN SECTION 2 */
+
+        /* DEBUT SECTION 3 */
+
+.sect3 > h1{
+    font-size: 27px;
+}
+        /* FIN SECTION 3 */
+
+        /* DEBUT SECTION 6 */
+
+.examp > img{
+    width: 150px;
+    border-radius: 20px;
+}
+        /* FIN SECTION 6 */
+
+        /* DEBUT SECTION 7 */
+
+.review > img{
+    width: 150px;
+    /* border-radius: 20px; */
+}
+.project{
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 10px;
+}
+.project > b{
+    font-size: 18px;
+}
+        /* FIN SECTION 7 */
+
+        /* DEBUT SECTION 8 */
+        
+.sect8{
+    padding-top: 30px;
+}
+.build-img > img{
+    width: 150px;
+    border-radius: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* justify-content: ; */
+}
+.contact > button{
+    background-color: #fff;
+    border: #fff;
+    padding: 8px;
+    margin-top: 20px;
+}
+        /* FIN SECTION 8 */
+
+        /* DEBUT SECTION 9 */
+
+.sect9 > h1{
+    font-size: 15px;
+    color: #fff;
+}
+        /* FIN SECTION 9 */
+
+        /* DEBUT SECTION 10 */
+
+.statistiq > img{
+    width: 80px;
+}
+.partner{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.partner > img{
+    width: 80px;
+}
+        /* FIN SECTION 10 */
+
+        /* DEBUT SECTION 12 */
+
+.sect12{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.secund{
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+    padding-top: 20px;
+}
+}
